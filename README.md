@@ -40,6 +40,9 @@ $ npm run start
 # watch mode
 $ npm run start:dev
 
+# run once (no watch)
+$ npm run start:once
+
 # production mode
 $ npm run start:prod
 ```
