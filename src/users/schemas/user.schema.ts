@@ -23,8 +23,8 @@ export class User {
   @Prop({ default: false })
   isDeleted: boolean;
 
-  @Prop({ default: null })
-  deletedAt: Date | null;
+  @Prop({ type: Date, default: null })
+  deletedAt!: Date;
 
   @Prop()
   createdAt: Date;
